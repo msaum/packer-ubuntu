@@ -16,7 +16,7 @@
       "associate_public_ip_address": "true",
       "ami_virtualization_type": "hvm",
       "tags": {
-        "OS_Version": "Ubuntu",
+        "OS": "Ubuntu",
         "Release": "{{user `release`}}",
         "Based on": "{{user `ami`}}",
         "Built on": "{{user `now`}}"
